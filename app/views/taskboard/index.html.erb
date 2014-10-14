@@ -8,6 +8,8 @@
     <%= select_tag("priority", options_for_select([['Any', '0']] + IssuePriority.all.collect { |m| [ m.name, m.id ] } )) %>
     <%= label_tag "category", "Category" %>
     <%= select_tag("category", options_for_select([['Any', '0']] + @project.issue_categories.collect { |m| [ m.name, m.id ] } )) %>
+    <%= label_tag "version", "Version" %>
+    <%= select_tag("fixed-version", options_for_select([['Any', '0']] + @project.versions.collect{|v| [v.name,v.id]} )) %>
   </p>
 </div>
 
