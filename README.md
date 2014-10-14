@@ -7,3 +7,8 @@ Screenshots
 -----------
 
 See [Alley's Redmine Task Board](http://www.alleyinteractive.com/blog/alley-redmine-taskboard/) illustrated blog post
+
+Fork
+----
+
+Just add possibility to filter by version ;)
